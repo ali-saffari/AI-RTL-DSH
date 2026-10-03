@@ -1,5 +1,2 @@
-export const name = 'ai-rtl'
-
-export function apply() {
-  console.log('[ai-rtl] AI RTL for DeepSeek Harness is installed')
-}
+// Host half: no server-side behavior. All work happens in client.js.
+export function apply() {}

@@ -1,15 +1,21 @@
-Copyright (c) 2026 Ali Saffari. All rights reserved.
+MIT License
 
-You may install and run this plugin only in the official DeepSeek Harness application published by DeepSeek.
+Copyright (c) 2026 dsh-persian-rtl contributors
 
-You may not use, copy, modify, merge, publish, distribute, sublicense, or sell this source. You may not run this plugin in any other program, and you may not include this source in another project.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The only permitted way to propose a change is a pull request to https://github.com/ali-saffari/AI-RTL-DSH.git. Sending a pull request gives Ali Saffari the right to accept that change into this project. It gives you no other right.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-حق نشر © ۲۰۲۶ علی صفاری. همه حقوق محفوظ است.
-
-نصب و اجرای این پلاگین فقط در برنامهٔ رسمی DeepSeek Harness، منتشرشده توسط DeepSeek، مجاز است.
-
-استفاده، کپی، تغییر، ادغام، انتشار، توزیع یا فروش این سورس مجاز نیست. اجرای این پلاگین در برنامهٔ دیگر، و بردن این سورس به پروژهٔ دیگر، مجاز نیست.
-
-تنها راه پیشنهاد تغییر، پول‌ریکوئست به https://github.com/ali-saffari/AI-RTL-DSH.git است. فرستادن پول‌ریکوئست به Ali Saffari حق می‌دهد آن تغییر را در همین پروژه بپذیرد و هیچ حق دیگری نمی‌دهد.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

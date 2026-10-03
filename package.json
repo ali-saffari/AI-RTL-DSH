@@ -1,0 +1,32 @@
+{
+  "name": "ai-rtl-dsh",
+  "version": "0.1.0",
+  "description": "Smart RTL: AI RTL for DeepSeek Harness.",
+  "keywords": ["deepseek-harness", "dsh-plugin", "ai-rtl"],
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Ali Saffari",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ali-saffari/AI-RTL-DSH.git"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.png",
+    "locale",
+    "LICENSE"
+  ],
+  "icon": "./icon.png",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

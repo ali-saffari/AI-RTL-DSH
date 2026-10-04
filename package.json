@@ -1,8 +1,16 @@
 {
   "name": "ai-rtl-dsh",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Smart RTL: AI RTL for DeepSeek Harness.",
-  "keywords": ["deepseek-harness", "dsh-plugin", "rtl", "persian", "farsi", "arabic", "hebrew"],
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "rtl",
+    "persian",
+    "farsi",
+    "arabic",
+    "hebrew"
+  ],
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -10,14 +18,18 @@
     "url": "https://github.com/ali-saffari/AI-RTL-DSH.git"
   },
   "exports": {
-    ".": "./index.js",
-    "./client": "./client.js",
+    ".": "./dist/index.js",
+    "./client": "./dist/client.js",
     "./package.json": "./package.json"
   },
-  "icon": "./icon.png",
+  "icon": "./dist/icon.png",
+  "scripts": {
+    "build": "webpack --config private/webpack.config.js",
+    "watch": "webpack --config private/webpack.config.js --watch"
+  },
   "dsh": {
     "bundle": {
-      "patch": "./cordis.patch.yml"
+      "patch": "./dist/cordis.patch.yml"
     },
     "client": {
       "platform": "web",
@@ -27,5 +39,9 @@
         "@deepseek-ai/dsh-client-ui-chat"
       ]
     }
+  },
+  "devDependencies": {
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
   }
 }
